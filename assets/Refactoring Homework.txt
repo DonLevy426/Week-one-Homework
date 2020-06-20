@@ -1,0 +1,37 @@
+Notes for Week One Homework - Refactoring
+
+--- Changed to a more concise and descriptive title
+<title>Horison, Internet Search Engine Optimization, Reputation Management and Social Media Marketing</title>
+
+--- HTML (Line 12) 
+changed <div class=”header”> to <header>
+HTML (Line 26) Also changed closing tag from </div> to </header>
+CSS ( Lines 11, 18,23, 27, 35, 39) changed .header to header (removed the “.” That
+
+--- Header (Search Engine Optimization Link Not Working)
+HTML (Line 31) changed class to id
+CSS (Line 137, 165, 177) Changed class (.) to ID (#) 
+
+HTML Line 77 Changed footer from <h2> to <Span> 
+CSS Changed to .footer span
+
+--- Web Accessibility Improvement - added alt attribute image description and added title for hover-over 
+
+<img src="./assets/images/search-engine-optimization.jpg" alt="search-engine-optimization" title="Search Engine Optimization" class="float-left" />
+
+<img src="./assets/images/online-reputation-management.jpg" alt="online-reputation-management" title="online-reputation-management" class="float-right" />
+
+<img src="./assets/images/social-media-marketing.jpg" alt="social-media-marketing" title="social-media-marketing" class="float-left" />
+
+Images: Lead Generation, Brand Awareness and Cost Management, added alt=”” to indicate Image is only for decoration.
+<img src="./assets/images/lead-generation.png" alt="" title="Lead Generation" />
+<img src="./assets/images/brand-awareness.png" alt="" title="Brand Awareness"/>
+<img src="./assets/images/cost-management.png" alt="" title="Cost Management"></img>
+
+--- Side Box - Web Accessibility Improvement - Darkened background for better contrast */
+--- Darkened “seo” within Horiseon for better readability 
+header h1 .seo {
+    color: #233512;
+
+To Do:
+ Move all “Search Engine Optimization” together
